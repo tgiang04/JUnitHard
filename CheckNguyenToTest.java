@@ -28,6 +28,7 @@ public class CheckNguyenToTest {
         assertFalse(CheckNguyenTo.isPrime(0));
     }
 
+
     @Test
     public void testIsPrimeWithNegativeNumber() {
         assertFalse(CheckNguyenTo.isPrime(-1));
